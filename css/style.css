@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h1 {
+    margin: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 175%;
+}
+.row {
+    width:100%;
+    padding:1%;
+}
+
+.row h3 {
+    position: absolute;
+    text-align: center;
+    font-size: 125%;
+    top:0px; right:0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.row>div{
+    background-color: moccasin;
+}
+
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: orchid;
+}
+.yellow{
+    background-color: yellow;
+}
+.row p {
+    margin:10px;
+    padding:30px;
+}
+/*Large*/
+
+@media (min-width:992px) {
+   
+    .col-la-4 {
+        float: left;
+        border: 1px solid black;
+        position: relative;
+        margin: 1%;
+    }
+
+    .col-la-4 {
+        width: 31.33%;
+    }
+}
+
+/*Medium*/
+
+
+@media (min-width:768px) and (max-width: 991px) {
+    
+    .col-me-6, .col-me-12 {
+        float: left;
+        border: 1px solid black;
+        position: relative;
+        margin: 1%;
+    }
+
+    .col-me-6 {
+        width: 48%;
+    }
+
+    .col-me-12 {
+        width: 98%;
+    }
+
+}
+
+/*Small*/
+@media (max-width:767px) {
+    
+    .col-sm-12 {
+        float: left;
+        border: 1px solid black;
+        position: relative;
+        margin: 3%;
+    }
+
+    .col-sm-12 {
+        width: 94%;
+
+    }
+
+}
